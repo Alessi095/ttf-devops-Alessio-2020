@@ -3,9 +3,13 @@
 | Full Name 1 | GitHub nickname 1 | Full Name 2 | GithHub nickname 2 | notes |
 | ----------- | ----------------- | ----------- | ------------------ | ----- |
 | Gianni Bombelli | bombo82 | | | teacher |
-| Alessio Oliviero | Alessi095  | Giacomo Fracassi | jay989898 | TeamParo |
-| Kevin Signo | KevinSigno | Agli Hoxha | AgliHoxha1 | |
+| Luca Pedrotti | Stalling994 | | | Student |
+| Djimeli Yolande | Yolande19 | | | |
 | Gabriele Cinquepalmi | gabrix96 | | | |
+| Daniele Pruneri | danpru | Alessio Romele | AleRommels9913 | |
+| Alessio Oliviero | Alessi095  | Giacomo Fracassi | jay989898 | TeamParo |
+| | | | | probabilmente il nickname 2 contiene un errore di battitura, credo che quello corretto sia: jayb989898 |
+| Kevin Signo | KevinSigno | Agli Hoxha | AgliHoxha1 | |
 | Giacomo Satta | giacomosatta | Lorenzo Filippi | lofilips | |
 | Matteo Pirovano | mttpisi | Marco Leuzzi | Leuz99 | student |
 | Ezio Raciti | ezioraciti | Paolo Chierici | paolinux97 | |
