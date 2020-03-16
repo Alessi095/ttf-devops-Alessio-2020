@@ -1,0 +1,38 @@
+{
+  "name": "commons-color-space-converter",
+  "version": "0.0.1",
+  "description": "This software is part of a micro-service architecture written for demonstration purposes.",
+  "keywords": [],
+  "homepage": "",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Gianni Bombelli (bombo82)",
+    "email": "bombo82@giannibombelli.it"
+  },
+  "contributors": [],
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "lint": "eslint src/** --ext .js,.ts",
+    "test:unit": "ts-mocha ./src/**/*.test.ts"
+  },
+  "dependencies": {
+    "color-convert": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.9",
+    "@types/color-convert": "^1.9.0",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.7",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^6.2.2",
+    "ts-mocha": "^6.0.0",
+    "typescript": "^3.8.3"
+  }
+}

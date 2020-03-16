@@ -9,7 +9,7 @@ Definire un'immagine Docker tramite ```Dockerfile``` che soddisfa i seguenti req
 - come comportamento di default esegua il comando ```factor 42```
 
 ## Test di Accettazione
-Sono definiti i seguenti testi di accettazione:
+Sono definiti i seguenti test di accettazione:
 - should use Alpine GNU/Linux distribition
 - should execute factor with default value (42)
 - should execute the external command

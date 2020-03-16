@@ -1,0 +1,22 @@
+version: '3'
+services:
+  reverse-proxy:
+    image: traefik
+    command: --api.insecure=true --providers.docker --providers.docker.exposedByDefault=false
+    restart: "no"
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+#    depends_on:
+#      - microservice-example
+
+#  microservice-example:
+#    image: microservice-example
+#    restart: "no"
+#    labels:
+#      - "traefik.enable=true"
+#      - "traefik.http.routers.microservice-example.rule=PathPrefix(`/microservice-example`)"
+#      - "traefik.http.routers.microservice-example.middlewares=microservice-example-stripprefix"
+#      - "traefik.http.middlewares.microservice-example-stripprefix.stripprefix.prefixes=/microservice-example"

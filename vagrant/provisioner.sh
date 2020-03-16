@@ -3,8 +3,13 @@
 install_and_configure_git() {
     apk add git git-doc nano
     git config --system core.editor nano
+<<<<<<< HEAD
     su vagrant -c "git config --global user.name \"Alessi095\""
     su vagrant -c 'git config --global user.email Alessioliviero1995@gmail.com'
+=======
+    su vagrant -c "git config --global user.name \"Gianni Bombelli (bombo82)\""
+    su vagrant -c 'git config --global user.email gianni@giannibombelli.it'
+>>>>>>> ae6e3800414684da6342d7d9db53338de40ccbc6
 }
 
 install_and_configure_docker() {
@@ -21,6 +26,11 @@ install_and_configure_docker-compose() {
     pip install docker-compose
 }
 
+install_nodejs_and_npm() {
+	apk add nodejs npm
+}
+
 install_and_configure_git
 install_and_configure_docker
 install_and_configure_docker-compose
+install_nodejs_and_npm

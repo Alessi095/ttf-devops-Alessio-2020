@@ -9,7 +9,7 @@ else
 fi
 
 should_app_folder_contains_only_app_files() {
-    local readonly DESCRIPTION='should "app" folder contains only "index.js"'
+    local readonly DESCRIPTION='should "app" folder contains only the applications files'
     local readonly EXPECTED="node_modules
 package-lock.json
 package.json

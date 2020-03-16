@@ -10,7 +10,7 @@ Definire un'immagine Docker tramite ```Dockerfile``` che soddisfa i seguenti req
 - come comportamento di default esegua il comando ```figlet Hello World```
 
 ## Test di Accettazione
-Sono definiti i seguenti testi di accettazione:
+Sono definiti i seguenti test di accettazione:
 - should use Alpine GNU/Linux distribition
 - should execute figlet with default value (Hello World)
 - should execute the external command

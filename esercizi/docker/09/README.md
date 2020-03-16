@@ -18,7 +18,7 @@ Definire un'immagine Docker tramite ```Dockerfile``` che soddisfa i seguenti req
 > NOTA: alcuni dei punti sopra sono già garantiti dalla versione alpine dell'immagine di [nginx](https://hub.docker.com/_/nginx). Potete utilizzare tale immagine come base di questo esercizio!
 
 ## Test di Accettazione
-Sono definiti i seguenti testi di accettazione:
+Sono definiti i seguenti test di accettazione:
 - should use Alpine GNU/Linux distribition
 - should **html** folder contains only **index.html**
 - should **up.sh** file exists

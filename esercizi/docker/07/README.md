@@ -11,7 +11,7 @@ Definire un'immagine Docker tramite ```Dockerfile``` che soddisfa i seguenti req
 - non sia possibile eseguire altri comandi
 
 ## Test di Accettazione
-Sono definiti i seguenti testi di accettazione:
+Sono definiti i seguenti test di accettazione:
 - should use Alpine GNU/Linux distribition
 - should contains the base layout plus **app** folder
 - should **app** folder contains only **invertimi.txt**

@@ -1,1 +1,6 @@
+*.code-workspace
+.idea
+*.iml
+
 vagrant/.vagrant
+vagrant/*.log
