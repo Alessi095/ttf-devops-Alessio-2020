@@ -9,7 +9,6 @@ class HttpController {
         server.get('/', (req, res) => {
             const color = JSON.parse(req.query.color) as TtfHex;
             const convertedColor: TtfRgb = convert(color);
-
             res.send(convertedColor);
         });
     }
